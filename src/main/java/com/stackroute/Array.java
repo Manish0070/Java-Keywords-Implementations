@@ -2,6 +2,11 @@ package com.stackroute;
 
 public class Array {
     public static void main(String args[]) {
+    Array array = new Array();
+    array.Arraymethod();
+    }
+
+    public void Arraymethod() {
         int a[] = new int[5];//declaration and instantiation
         a[0] = 10;//initialization
         a[1] = 20;
@@ -14,4 +19,3 @@ public class Array {
         }
     }
 }
-
